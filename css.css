@@ -1,10 +1,70 @@
-*{
-    text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nombre{
-    font-size: large;
-    font-family: cursive;
-    color: gold;
-    
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+
+.nombre {
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+
+ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.contacto p {
+  margin-bottom: 5px;
+}
+
+
+section {
+  margin-top: 20px;
+}
+
+span {
+  font-size: 14px;
+  color: #777;
 }
